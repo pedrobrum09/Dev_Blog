@@ -135,7 +135,7 @@ const page = () => {
                 </div>
               )}
 
-              <p className="mt-4 text-center text-gray-600">or sign in with</p>
+              <p className="mt-4 text-center text-gray-600">ou faça login com</p>
 
               <button
                 onClick={() => signIn("github")}
@@ -156,7 +156,7 @@ const page = () => {
                   ></path>
                 </svg>
 
-                <span className="mx-2">Sign in with GitHub</span>
+                <span className="mx-2">Faça login com o GitHub</span>
               </button>
 
               <div className="mt-6 text-center ">
@@ -164,7 +164,7 @@ const page = () => {
                   href="/signUp"
                   className="text-sm text-blue-500 hover:underline"
                 >
-                  Don’t have an account yet? Sign up
+                  Ainda não tem uma conta? Registre-se
                 </Link>
               </div>
             </div>

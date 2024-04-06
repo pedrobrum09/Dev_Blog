@@ -87,7 +87,7 @@ const page = () => {
         <div className="container flex items-center justify-center min-h-screen px-6 mx-auto">
           <form onSubmit={handleSubmit} className="w-full max-w-md">
             <h1 className="mt-3 text-2xl font-semibold text-gray-800 capitalize sm:text-3xl text-center">
-              Sign Up
+              Registrar-se
             </h1>
 
             <div className="relative flex items-center mt-8">
@@ -192,7 +192,7 @@ const page = () => {
                   ></path>
                 </svg>
 
-                <span className="mx-2">Sign up with GitHub</span>
+                <span className="mx-2">Registre-se no GitHub</span>
               </button>
 
               <div className="mt-6 text-center ">
@@ -200,7 +200,7 @@ const page = () => {
                   href="/login"
                   className="text-sm text-blue-500 hover:underline"
                 >
-                  Already have an account? Sign in
+                  Já possui uma conta? Entre
                 </Link>
               </div>
             </div>
